@@ -14,7 +14,7 @@ def self.all #From inside the Dog class, we can access the @@all class variable,
 end
 def self.print_all
   @@all.each do |dog|
-    puts "#{dog}"
+    puts "#{dog.name}"
   end
 end
 def self.clear_all
